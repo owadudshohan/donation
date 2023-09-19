@@ -1,0 +1,61 @@
+.new {
+  width: 100%;
+  display: flex;
+}
+
+.newContainer {
+  flex: 6;
+}
+
+.top,
+.bottom {
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+  margin: 20px;
+  display: flex;
+}
+
+h1 {
+  color: rgb(17, 1, 1);
+  font-size: 20px;
+}
+
+.formControl {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+  margin: 5px 350px;
+}
+
+.formInput1 {
+  width: 100%;
+}
+
+.formInput1 label {
+  width: 100%;
+  align-items: center;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.formInput1 input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.btnSubmit {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
